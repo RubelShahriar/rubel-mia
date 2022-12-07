@@ -67,7 +67,7 @@ const About = () => {
                   <div className="btn-main">
                     <button className="button">
                       <span className="btn-span-text">
-                        <a href="https://drive.google.com/uc?export=download&id=1DejGeBjgE30XXJtFXizvWrYXctXc3lAl">
+                        <a href="https://drive.google.com/uc?export=download&id=1BFHbDuWMQ97fniks4_SntVert0Z8XdET">
                           download cv
                         </a>
                       </span>
