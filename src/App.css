@@ -213,7 +213,13 @@ a {
   overflow: hidden;
   cursor: pointer;
 }
+.button a {
+  color: var(--text-color);
+}
 .button:hover .btn-span-text {
+  color: white;
+}
+.button:hover a {
   color: white;
 }
 .btn-span-text {

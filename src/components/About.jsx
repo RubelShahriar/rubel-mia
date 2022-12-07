@@ -66,7 +66,11 @@ const About = () => {
                   </div>
                   <div className="btn-main">
                     <button className="button">
-                      <span className="btn-span-text">download cv</span>
+                      <span className="btn-span-text">
+                        <a href="https://drive.google.com/uc?export=download&id=1DejGeBjgE30XXJtFXizvWrYXctXc3lAl">
+                          download cv
+                        </a>
+                      </span>
                     </button>
                     <i className="bx bxs-cloud-download btn-arrow"></i>
                   </div>
