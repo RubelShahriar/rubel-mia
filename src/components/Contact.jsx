@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
           <div className="contact-container">
             <div className="contact-info">
-              <h2>don't be shy!</h2>
+              <h2>get in touch!</h2>
               <p className="contact-sub-details">
                 Feel free to get in touch with me. I am always open to
                 discussing new projects, creative ideas or opportunities to be
