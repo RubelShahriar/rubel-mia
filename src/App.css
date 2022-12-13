@@ -386,6 +386,10 @@ a {
   .nav-unorder-list li {
     margin-bottom: 7px;
   }
+  .nav-unorder-list li:hover h2 {
+    opacity: 0;
+    padding-right: 0;
+  }
   .modal {
     width: 500px;
     height: 400px;
