@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="container">
           <div className="cmn-heading">
             <h1 className="title">
-              my <span className="heading-last-word">get in touch</span>
+              <span className="heading-last-word">get in touch</span>
             </h1>
             <span className="title-bg">contact</span>
           </div>
