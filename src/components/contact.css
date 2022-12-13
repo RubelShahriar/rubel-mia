@@ -155,6 +155,13 @@ textarea {
   .contact-inputs {
     padding: 0 10px;
   }
+  .contact-inputs input,
+  textarea {
+    margin-bottom: 20px;
+  }
+  .contact-inputs textarea {
+    margin-bottom: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .container {
