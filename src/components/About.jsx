@@ -67,8 +67,9 @@ const About = () => {
                   <div className="btn-main">
                     <button className="button">
                       <span className="btn-span-text">
-                        <a href="https://drive.google.com/uc?export=download&id=1BFHbDuWMQ97fniks4_SntVert0Z8XdET">
+                        <a href="https://drive.google.com/uc?export=download&id=17qpGCeoP2pYbsEn74gR06YIaMtwppvnS">
                           download cv
+                          {/* https://drive.google.com/file/d/17qpGCeoP2pYbsEn74gR06YIaMtwppvnS/view?usp=sharing */}
                         </a>
                       </span>
                     </button>
