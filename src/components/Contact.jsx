@@ -70,13 +70,13 @@ const Contact = () => {
                   <a href="https://github.com/RubelShahriar">
                     <i className="bx bxl-github"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/mrrubelmia/">
+                  <a href="https://www.linkedin.com/in/rubelmiaa/">
                     <i className="bx bxl-linkedin"></i>
                   </a>
-                  <a href="https://twitter.com/RubelShr">
+                  <a href="https://twitter.com/rubelmiaa">
                     <i className="bx bxl-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/mdrubelshahriar/">
+                  <a href="https://www.instagram.com/rubelmiaaa/">
                     <i className="bx bxl-instagram-alt"></i>
                   </a>
                 </div>
