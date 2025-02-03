@@ -366,7 +366,7 @@ a {
   }
   .navbar {
     position: fixed;
-    top: 100%;
+    top: 0;
     right: 0;
     z-index: 999;
     transform: translateY(-100%);
@@ -414,6 +414,13 @@ a {
   .title-bg {
     font-size: 60px !important;
     letter-spacing: 5px !important;
+  }
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    transform: translateY(-100%);
   }
   .modal {
     width: 270px;
