@@ -31,16 +31,16 @@ const Home = () => {
                 <div>
                   <h1 className="first-heading">
                     <div className="line"></div>
-                    i'm rubel shahriar.
+                    i'm rubel mia.
                   </h1>
-                  <h1 className="second-heading">web developer</h1>
+                  <h1 className="second-heading">a web developer</h1>
                   <p className="para">
-                    I'm a Bangladesh based web developer focused on crafting
-                    user-friendly experiences, manage all aspects of web
-                    development from concept to requirements definition, design,
-                    development, launch, maintenance, user support and enjoy
-                    working closely with team members to produce high-quality
-                    deliverables.
+                    I'm a Dhaka, Bangladesh-based web developer focused on
+                    crafting user-friendly experiences. I manage all aspects of
+                    web development, from concept and requirements definition to
+                    design, development, launch, maintenance, and user support.
+                    I enjoy working closely with team members to produce
+                    high-quality deliverables.
                   </p>
                   <div className="btn-main">
                     <button className="button">

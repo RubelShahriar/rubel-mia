@@ -42,7 +42,11 @@
   font-weight: 600;
 }
 .info-left-inner-flex .custom-clr {
-  color: #2bc42b;
+  color: #31d631;
+  text-transform: capitalize;
+}
+.info-left-inner-flex .lowercase {
+  text-transform: lowercase;
 }
 .credits-item {
   display: grid;

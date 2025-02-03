@@ -27,24 +27,31 @@ const About = () => {
                           first name: <span>rubel</span>
                         </li>
                         <li>
-                          age: <span>22 years</span>
+                          age:{" "}
+                          <span>{new Date().getFullYear() - 2000} years</span>
                         </li>
                         <li>
                           freelance:{" "}
                           <span className="custom-clr">available</span>
                         </li>
                         <li>
-                          phone: <span>+8801793977498</span>
+                          phone: <span>+8801309515101</span>
                         </li>
                         <li>
-                          skype: <NavLink to="/">rubel.shahriar</NavLink>
+                          skype:{" "}
+                          <NavLink
+                            className="custom-clr"
+                            to="https://join.skype.com/invite/y50GkRTrfV58"
+                          >
+                            Rubel Mia
+                          </NavLink>
                         </li>
                       </ul>
                     </div>
                     <div>
                       <ul>
                         <li>
-                          last name: <span>shahriar</span>
+                          last name: <span>mia</span>
                         </li>
                         <li>
                           nationality: <span>bangladeshi</span>
@@ -54,12 +61,15 @@ const About = () => {
                         </li>
                         <li>
                           email:
-                          <a href="mailto:mr.rubelshahriar@gmail.com">
+                          <a
+                            className="custom-clr lowercase"
+                            href="mailto:mr.rubelshahriar@gmail.com"
+                          >
                             mr.rubelshahriar@gmail.com
                           </a>
                         </li>
                         <li>
-                          language: <span>english, bangla</span>
+                          language: <span>english, bangla, korean</span>
                         </li>
                       </ul>
                     </div>
@@ -67,10 +77,9 @@ const About = () => {
                   <div className="btn-main">
                     <button className="button">
                       <span className="btn-span-text">
-                        <a href="https://drive.google.com/uc?export=download&id=1f_ibPb0EimXrjvVNZd3KerjL_A5X3rJi">
+                        <a href="https://drive.google.com/file/d/1AN-BcKOfRwPybpdZVO2AFXd2p2pMuxe1">
                           download cv
-                          {/* https://drive.google.com/file/d/17qpGCeoP2pYbsEn74gR06YIaMtwppvnS/view?usp=sharing */}
-                          {/* https://drive.google.com/file/d/1f_ibPb0EimXrjvVNZd3KerjL_A5X3rJi/view?usp=share_link */}
+                          {/* https://drive.google.com/file/d/1AN-BcKOfRwPybpdZVO2AFXd2p2pMuxe1/view?usp=sharing */}
                         </a>
                       </span>
                     </button>
@@ -112,49 +121,49 @@ const About = () => {
             <div className="skills-grid-layout">
               <div className="progress-wrap">
                 <div className="progress react">
-                  <span>93%</span>
+                  <span>100%</span>
                 </div>
                 <p>react</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress javascript">
-                  <span>94%</span>
+                  <span>100%</span>
                 </div>
                 <p>javascript</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress redux">
-                  <span>91%</span>
+                  <span>100%</span>
                 </div>
                 <p>redux</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress typescript">
-                  <span>67%</span>
+                  <span>100%</span>
                 </div>
                 <p>typescript</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress sass">
-                  <span>95%</span>
+                  <span>100%</span>
                 </div>
                 <p>sass</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress nodejs">
-                  <span>65%</span>
+                  <span>100%</span>
                 </div>
                 <p>node js</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress mongodb">
-                  <span>68%</span>
+                  <span>100%</span>
                 </div>
                 <p>mongo db</p>
               </div>
               <div className="progress-wrap">
                 <div className="progress expressjs">
-                  <span>61%</span>
+                  <span>100%</span>
                 </div>
                 <p>express js</p>
               </div>
@@ -187,7 +196,7 @@ const About = () => {
                     <span className="date">2022/01 - 2022/06</span>
                     <h5>
                       freelance developer{" "}
-                      <span className="place">upwork/fiver</span>
+                      <span className="place">upwork/fiverr</span>
                     </h5>
                     <p>
                       Worked as a freelance developer from jan 2022 to june
