@@ -27,10 +27,10 @@ const Layout = () => {
 
   return (
     <div>
-      <div className="cursor-main">
+      {/* <div className="cursor-main">
         <div className="cursor-main-small"></div>
         <div className="cursor-main-big"></div>
-      </div>
+      </div> */}
       <div className="overlay"></div>
       <header className="theme-header">
         <div className="theme" onClick={toggleTheme}>

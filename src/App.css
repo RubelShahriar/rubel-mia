@@ -366,7 +366,7 @@ a {
   }
   .navbar {
     position: fixed;
-    top: 0;
+    top: 100%;
     right: 0;
     z-index: 999;
     transform: translateY(-100%);
@@ -417,7 +417,7 @@ a {
   }
   .navbar {
     position: fixed;
-    bottom: 100px;
+    top: 100%;
     right: 0;
     z-index: 999;
     transform: translateY(-100%);
